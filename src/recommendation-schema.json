@@ -1,6 +1,11 @@
 {
   "courseIds": ["CS-310"],
   "explanation": "Matches the selected interests",
+  "buttonTheme": {
+    "primary": "lime",
+    "contrastReviewed": true,
+    "hoverState": "dark-lime"
+  },
   "preferredTimeWindows": [
     { "start": "09:00", "end": "11:00" }
   ]
