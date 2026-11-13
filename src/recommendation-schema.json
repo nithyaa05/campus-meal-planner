@@ -1,0 +1,7 @@
+{
+  "courseIds": ["CS-310"],
+  "explanation": "Matches the selected interests",
+  "preferredTimeWindows": [
+    { "start": "09:00", "end": "11:00" }
+  ]
+}
