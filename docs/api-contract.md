@@ -1,6 +1,6 @@
 # Initial API contract
 
-This is a planning contract, not implemented code.
+The meal response mapper implements the search response shape. HTTP endpoints and weekly-plan creation are planned.
 
 ## Search meals
 
@@ -19,6 +19,10 @@ Response:
   }]
 }
 ```
+
+The optional `allergens` property is an array of non-empty strings. An omitted
+property means the information is unavailable. An empty array means a source
+explicitly supplied an empty list.
 
 ## Create a weekly plan
 
